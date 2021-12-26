@@ -1,0 +1,6 @@
+const sequencesum=(start,stop,step)=>{
+    let sum=0
+    for(let i=start;i<=stop;i+=step) sum+=i;
+    return sum
+};
+console.log(sequencesum(7,14,8))
